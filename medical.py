@@ -49,4 +49,4 @@ def prediction():
 if st.button("Predict"):
     result = prediction()
     st.success('Thank you for filling this form. This medical insurance will {}'.format(result))
-    st.write('Have a nice day')
+    # st.write('Have a nice day')

@@ -8,6 +8,7 @@ Created on Fri Oct 18 04:49:38 2024
 import pandas as pd
 import streamlit as st
 import pickle
+import sklearn
 #import xgboost as xgb
 
 filename = 'naivebayes_model.sav'
